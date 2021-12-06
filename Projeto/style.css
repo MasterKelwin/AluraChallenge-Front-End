@@ -1,0 +1,39 @@
+body {
+    background: #051D3B;
+}
+
+header {
+    width: 100%;
+}
+
+div.box {
+    position: relative;
+    width: 96%;
+    margin: 32px auto;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+}
+
+h1 img {
+    display: inline-block;
+    width: 10%;  /*corrigir tamanho no ps*/
+}
+
+#foto_perfil {
+    width: 36px;
+}
+
+.campoPesquisa {
+    display: inline-block;
+    padding: 15px 10px;
+    width: 70%;
+    text-align: center;
+
+}
+
+.pesquisa {
+    text-align: center;
+}
