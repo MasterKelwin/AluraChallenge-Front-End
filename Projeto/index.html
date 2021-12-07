@@ -7,17 +7,24 @@
     <title>ALURA_Dev</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="box">
-            <h1><img src="assets/logo_plataforma.png" alt="logo da plataforma Alura_Dev"></h1>
+            <h1 class="logo_plataforma"><img src="assets/logo_plataforma.png" alt="logo da plataforma Alura_Dev"></h1>
             <nav>
-                <img src="assets/foto_perfil.png" alt="foto de perfil" id="foto_perfil">
+                <div class="usuario">
+                    <img src="assets/foto_perfil.png" alt="foto de perfil" id="foto_perfil">
+                    <p id="nomePerfil">Kelwin</p>
+                </div>
+                    <form class="pesquisa">
+                        <input type="text" id="campoPesquisa" class="campoPesquisa" placeholder="Busque por algo" required>
+                    </form>
             </nav>
-            <form class="pesquisa">
-                <input type="text" id="campoPesquisa" class="campoPesquisa" placeholder="Busque por algo" required>
-            </form>
+        
         </div>        
     </header>
 
