@@ -6,54 +6,44 @@ body {
 
 header {
     width: 100%;
+    
 }
 
-div.box {
-    position: relative;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 96%;
     margin: 32px auto;
 }
 
-nav {
-    display: inline;
-}
-
 .usuario {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 2.5%;
-}
-
-.usuario p {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #fff;
-    vertical-align: 75%;
 }
 
-.logo_plataforma {
-    display: inline;  
-    left: 0;
+.usuario img {
+    margin: 0 8px 0 0;
 }
 
 h1 img {
-    display: inline-block;
-    width: 10%; 
+    width: 200px;  /*consertar no ps*/
 }
 
 #foto_perfil {
-    display: inline-block;
     width: 36px;    
 }
 
 .campoPesquisa {
-    display: inline-block;
     background-color: #2D415B;
     padding: 18px 10px;
     text-align: left;
-    width: 50%;
+    width: 97%;
     border: none;
     border-radius: 8px;
+    color: #B3BAC4;
 }
 
 input::placeholder {
@@ -61,8 +51,5 @@ input::placeholder {
 }
 
 .pesquisa {
-    position: fixed;
-    top: 25px;
-    text-align: center;
-    width: 100%;
+    width: 50%;
 }
