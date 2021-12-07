@@ -14,13 +14,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 96%;
-    margin: 32px auto;
+    margin: 0 auto;
+    padding: 32px 0;
 }
 
 .usuario {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     color: #fff;
 }
 
@@ -29,7 +29,7 @@ nav {
 }
 
 h1 img {
-    width: 200px;  /*consertar no ps*/
+    width: 145px;  /*consertar no ps*/
 }
 
 #foto_perfil {
