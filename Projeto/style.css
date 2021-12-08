@@ -50,3 +50,51 @@ input::placeholder {
 .pesquisa {
     width: 50%;
 }
+
+
+
+
+aside {
+    width: 20%;
+    margin: 0 0 0 2%;
+}
+
+aside h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.botoes_nav {
+    flex-flow: column wrap;
+    margin: 4% 0 0 0;
+}
+
+.botao_nav_esquerda {
+    display: flex;
+    margin: 3% 0 3% 0;
+    align-items: center;
+    opacity: 0.16;
+}
+
+.botao_nav_esquerda:hover {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.botao_nav_esquerda p {
+    margin: 0 0 0 5%;
+    color: #fff;
+}
+
+.botao_nav_esquerda_separado {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #5081FB;
+    border: none;
+    font-weight: 999;
+}
