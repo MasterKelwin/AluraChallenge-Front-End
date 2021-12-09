@@ -137,7 +137,7 @@ menu {
     margin: 6% 0 3% 0;
 }
 
-.nome_projeto, .descricao_projeto {
+.nome_projeto {
     background-color: #2D415B;
     padding: 18px 10px;
     width: 94%;
@@ -145,6 +145,19 @@ menu {
     border-radius: 8px;
     color: #B3BAC4;
     margin: 0 0 4% 0;
+}
+
+.descricao_projeto {
+    background-color: #2D415B;
+    padding: 18px 10px;
+    width: 94%;
+    border: none;
+    border-radius: 8px;
+    color: #B3BAC4;
+    margin: 0 0 4% 0;
+    font-family: 'Inter', sans-serif;
+
+
 }
 
 .linguagem {
