@@ -26,6 +26,7 @@ h1 img {
     display: flex;
     align-items: center;
     color: #fff;
+    margin: 0 1% 0 0;
 }
 
 #foto_perfil {
@@ -111,7 +112,7 @@ menu {
     width: 20%;
 }
 
-.form_projeto_nome-descricao {
+/*.form_projeto_nome-descricao {
     display: flex;
     flex-direction: column;
     margin: 3% 0 10% 0;
@@ -121,6 +122,19 @@ menu {
     display: flex;
     flex-direction: column;
     margin: 3% 0 10% 0;
+}*/
+
+.form_projeto {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_projeto h2 {
+    margin: 0 0 3% 0;
+}
+
+.form_projeto h2.h2next {
+    margin: 6% 0 3% 0;
 }
 
 .nome_projeto, .descricao_projeto {
@@ -149,4 +163,19 @@ menu {
     width: 100%;
     height: 56px;
     padding: 1% 2%;
+}
+
+.enviar-projeto {
+    background-color: #5081FB;
+    padding: 18px 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 10% 0 0 0;
+}
+
+.enviar-projeto:hover {
+    background-color: #234ebb;
+    color: #fff;
+    box-shadow: 5px 5px 10px #000000;
+    transition: 1s;
 }

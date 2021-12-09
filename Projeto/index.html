@@ -48,13 +48,14 @@
                 </ul>
             </aside>
             <menu>
-                <h2>seu projeto</h2>
-                <form class="form_projeto_nome-descricao">
+                <form class="form_projeto">
+                    <h2>seu projeto</h2>
+
                     <input type="text" id="nomeProjeto" class="nome_projeto" placeholder="Nome do seu projeto">
                     <input type="text" id="descricaoProjeto" class="descricao_projeto" placeholder="Descrição do seu projeto">
-                </form>
-                <h2>personalização</h2>
-                <form class="form_projeto_linguagem-cor">
+
+                    <h2 class="h2next">personalização</h2>
+
                     <select name="linguagem" id="linguagem" class="linguagem">
                         <option value="JavaScript">JavaScript</option>
                         <option value="Python">Python</option>
@@ -63,6 +64,7 @@
                         <option value="Ruby">Ruby</option>
                     </select>
                     <input type="color" class="cor" value="#6BD1FF">
+                    <input type="submit" class="enviar-projeto">
                 </form>
             </menu>
     </main>
