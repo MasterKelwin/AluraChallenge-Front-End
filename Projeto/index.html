@@ -12,47 +12,59 @@
 </head>
 <body>
     <header>
-        <div class="box">
-            <nav>
+            <div class="cabecalho">
                 <h1 class="logo_plataforma"><img src="assets/logo_plataforma.png" alt="logo da plataforma Alura_Dev"></h1>
             
-                <div class="pesquisa">
+                <form class="pesquisa">
                     <input type="text" id="campoPesquisa" class="campoPesquisa" placeholder="Busque por algo" required>
-                </div>
+                </form>
                 <div class="usuario">
                     <img src="assets/foto_perfil.png" alt="foto de perfil" id="foto_perfil">
                     <p id="nomePerfil">Kelwin</p>
                 </div>            
-            </nav>
-        </div>        
+            </div>     
     </header>
 
     <main>
-        <aside>
-            <h2>Menu</h2>
-            <ul class="botoes_nav">
-                <a href="index.html">
-                    <li class="botao_nav_esquerda">
-                        <button class="botao_nav_esquerda_separado">
-                            <p>	&#60;/&#62;</p>
-                        </button>
-                        <p>Editor de código</p>
-                    </li>
-                </a>
-                <a href="comunidade.html">
-                    <li class="botao_nav_esquerda">
-                        <button class="botao_nav_esquerda_separado">
-                            <p><img src="assets/comunidade.png" alt="comunidade"></p>
-                        </button>
-                        <p>Comunidade</p>
-                    </li>
-                </a>
-            </ul>
-        </aside>
-        <menu>
-            
-        </menu>
-
+            <aside>
+                <h2>Menu</h2>
+                <ul class="botoes_nav">
+                    <a href="index.html">
+                        <li class="botao_nav_esquerda">
+                            <button class="botao_nav_esquerda_separado">
+                                <p>	&#60;/&#62;</p>
+                            </button>
+                            <p>Editor de código</p>
+                        </li>
+                    </a>
+                    <a href="comunidade.html">
+                        <li class="botao_nav_esquerda">
+                            <button class="botao_nav_esquerda_separado">
+                                <p><img src="assets/comunidade.png" alt="comunidade"></p>
+                            </button>
+                            <p>Comunidade</p>
+                        </li>
+                    </a>
+                </ul>
+            </aside>
+            <menu>
+                <h2>seu projeto</h2>
+                <form class="form_projeto_nome-descricao">
+                    <input type="text" id="nomeProjeto" class="nome_projeto" placeholder="Nome do seu projeto">
+                    <input type="text" id="descricaoProjeto" class="descricao_projeto" placeholder="Descrição do seu projeto">
+                </form>
+                <h2>personalização</h2>
+                <form class="form_projeto_linguagem-cor">
+                    <select name="linguagem" id="linguagem" class="linguagem">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="PHP">PHP</option>
+                        <option value="C#">C#</option>
+                        <option value="Ruby">Ruby</option>
+                    </select>
+                    <input type="color" class="cor" value="#6BD1FF">
+                </form>
+            </menu>
     </main>
 
     <footer>
