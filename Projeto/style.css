@@ -90,6 +90,7 @@ aside h2 {
     color: #fff;
 }
 
+
 .botao_nav_esquerda_separado {
     width: 48px;
     height: 48px;
@@ -97,4 +98,8 @@ aside h2 {
     background-color: #5081FB;
     border: none;
     font-weight: 999;
+}
+
+a {
+    text-decoration: none;
 }
