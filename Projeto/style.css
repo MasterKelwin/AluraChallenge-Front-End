@@ -108,6 +108,34 @@ a {
     text-decoration: none;
 }
 
+section {
+    width: 50%;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.code {
+    width: 99.4%;
+    height: calc(100% - 4rem);
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+.bolinhas {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.editor_codigo {
+    height: 60%;
+    border: 32px solid #6BD1FF;
+    border-radius: 8px;
+    background-color: #000000;
+    height: 432px;
+}
+
 menu {
     width: 20%;
 }
