@@ -115,12 +115,13 @@ section {
 }
 
 .code {
-    width: 99.4%;
+    width: calc(99.4% - 20px);
     height: calc(100% - 4rem);
     background-color: #000000;
     border: none;
     color: #fff;
     border-radius: 8px;
+    padding: 0 10px;
 
 }
 
@@ -130,10 +131,27 @@ section {
 
 .editor_codigo {
     height: 60%;
-    border: 32px solid #6BD1FF;
+    border: 32px solid;
+    border-color: #6BD1FF;
     border-radius: 8px;
-    background-color: #000000;
-    height: 432px;
+    background: #000000; 
+    height: 65%;
+}
+
+.highlight {
+    width: 100%;
+    margin: 5% 0;
+    padding: 18px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5081FB;
+    color: #000;
+    opacity: 0.2;
+}
+
+.highlight:hover {
+    opacity: 1;
+    transition: 1s;
 }
 
 menu {
@@ -181,7 +199,7 @@ menu {
     width: 94%;
     border: none;
     border-radius: 8px;
-    color: #B3BAC4;
+    color: #ffffff;
     margin: 0 0 4% 0;
     font-family: 'Inter', sans-serif;
 

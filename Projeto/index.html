@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -48,12 +49,15 @@
                 </ul>
             </aside>
             <section>
-                <div class="editor_codigo">
+                <div class="editor_codigo" id="editorCodigo">
                     <div class="bolinhas">
                         <img src="assets/botoes.svg" alt="">
                     </div>
                     <textarea name="code" id="code" class="code" cols="" rows="" required></textarea>
                 </div>
+                <button class="highlight">
+                    <p>Visualizar com highlight</p>
+                </button>
             </section>
             <menu>
                 <form class="form_projeto">
@@ -76,10 +80,6 @@
                 </form>
             </menu>
     </main>
-
-    <footer>
-
-    </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
