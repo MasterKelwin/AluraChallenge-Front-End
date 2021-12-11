@@ -152,6 +152,7 @@ section {
 .highlight:hover {
     opacity: 1;
     transition: 1s;
+    cursor: pointer;
 }
 
 menu {
@@ -237,4 +238,5 @@ menu {
     color: #fff;
     box-shadow: 5px 5px 10px #000000;
     transition: 1s;
+    cursor: pointer;
 }
