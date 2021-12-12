@@ -153,6 +153,7 @@ section {
     opacity: 1;
     transition: 1s;
     cursor: pointer;
+    box-shadow: 5px 5px 10px #021022;
 }
 
 menu {
@@ -236,7 +237,7 @@ menu {
 .enviar-projeto:hover {
     background-color: #234ebb;
     color: #fff;
-    box-shadow: 5px 5px 10px #000000;
+    box-shadow: 5px 5px 10px #021022;
     transition: 1s;
     cursor: pointer;
 }
