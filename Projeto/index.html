@@ -14,14 +14,18 @@
 <body>
     <header>
             <div class="cabecalho">
-                <h1 class="logo_plataforma"><img src="assets/logo_plataforma.png" alt="logo da plataforma Alura_Dev"></h1>
+                <div class="logo_aluradev">
+                    <h1 class="logo_plataforma"><img src="assets/logo_plataforma.png" alt="logo da plataforma Alura_Dev"></h1>
+                </div>
             
                 <form class="pesquisa">
                     <input type="text" id="campoPesquisa" class="campoPesquisa" placeholder="Busque por algo" required>
                 </form>
                 <div class="usuario">
-                    <img src="assets/foto_perfil.png" alt="foto de perfil" id="foto_perfil">
-                    <p id="nomePerfil">Kelwin</p>
+                    <div class="flex_usuario">
+                        <img src="assets/foto_perfil.png" alt="foto de perfil" id="foto_perfil">
+                        <p id="nomePerfil">Kelwin</p>
+                    </div>
                 </div>            
             </div>     
     </header>
@@ -53,7 +57,7 @@
                     <div class="bolinhas">
                         <img src="assets/botoes.svg" alt="">
                     </div>
-                    <textarea name="code" id="code" class="code" cols="" rows="" required></textarea>
+                    <textarea name="code" id="code" class="code" cols="" rows="" placeholder="Seu código aqui"  required></textarea>
                 </div>
                 <button class="highlight">
                     <p>Visualizar com highlight</p>

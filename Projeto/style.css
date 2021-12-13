@@ -5,7 +5,8 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 96%;
+    margin: 0 auto;
     
 }
 
@@ -15,18 +16,42 @@ h1 img {
 
 .cabecalho {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 96%;
-    margin: 0 auto;
-    padding: 32px 0;
+    width: 100%;
+    margin: 32px auto;
+}
+
+.logo_aluradev {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.campoPesquisa {
+    background-color: #2D415B;
+    padding: 18px 10px;
+    text-align: left;
+    width: 97.5%;
+    border: none;
+    border-radius: 8px;
+    color: #B3BAC4;
+}
+
+.pesquisa {
+    width: 50%;
 }
 
 .usuario {
     display: flex;
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.flex_usuario {
+    display: flex;
     align-items: center;
     color: #fff;
-    margin: 0 1% 0 0;
+    padding: 0 5% 0 0;
 }
 
 #foto_perfil {
@@ -34,22 +59,12 @@ h1 img {
     margin: 0 8px 0 0;    
 }
 
-.campoPesquisa {
-    background-color: #2D415B;
-    padding: 18px 10px;
-    text-align: left;
-    width: 97%;
-    border: none;
-    border-radius: 8px;
-    color: #B3BAC4;
-}
-
 input::placeholder {
     color: #B3BAC4;
 }
 
-.pesquisa {
-    width: 50%;
+textarea::placeholder {
+    color: #fff;
 }
 
 
@@ -109,28 +124,29 @@ a {
 }
 
 section {
-    width: 50%;
-    flex-flow: column wrap;
-    align-items: center;
+    width: 48.5%;
 }
 
 .code {
-    width: calc(99.4% - 20px);
-    height: calc(100% - 4rem);
+    width: calc(100% - 1.5rem);
+    height: calc(100% - 3rem);
     background-color: #000000;
     border: none;
     color: #fff;
     border-radius: 8px;
     padding: 0 10px;
+    margin: 0 auto;
 
 }
 
 .bolinhas {
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem;
 }
 
 .editor_codigo {
-    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 32px solid;
     border-color: #6BD1FF;
     border-radius: 8px;
