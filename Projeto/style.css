@@ -257,3 +257,46 @@ menu {
     transition: 1s;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    h1 img {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 8px;
+    }
+
+    .logo_aluradev {
+        width: 20%;
+    }
+    
+    .cabecalho {
+        margin: 8% auto;
+    }
+        
+    .campoPesquisa {
+        padding: 9px 5px;
+        width: 94%;
+    }
+    
+    .usuario {
+        width: 15%;
+        justify-content: flex-start;
+    }
+    
+    .flex_usuario {
+        padding: 0;
+        width: 90%;
+    }
+    
+    #foto_perfil {
+        width: 50%;
+    }
+     
+}
